@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mx.ozz</groupId>
-	<artifactId>HBL</artifactId>
+	<artifactId>hbl</artifactId>
 	<packaging>war</packaging>
 	<version>1.0</version>
 	<name>HBL</name>
@@ -43,12 +43,6 @@
 			<artifactId>ejb-api</artifactId>
 			<version>3.0</version>
 		</dependency>
-		<dependency>
-			<groupId>org.hibernate.javax.persistence</groupId>
-			<artifactId>hibernate-jpa-2.0-api</artifactId>
-			<version>1.0.1.Final</version>
-		</dependency>
-
 	</dependencies>
 
 
