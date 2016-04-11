@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.mx.ozz</groupId>
-	<artifactId>hbl-back</artifactId>
+		<artifactId>hbl-back</artifactId>
 		<version>1.0.0</version>
 	</parent>
 	<groupId>com.mx.ozz</groupId>
@@ -14,26 +14,25 @@
 	<url>http://maven.apache.org</url>
 
 	<dependencies>
-		
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 		</dependency>
-		
-		
+
+
 		<dependency>
-				<groupId>com.mx.ozz</groupId>
-				<artifactId>hbl-backDM</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			
-				<dependency>
-			<groupId>javax.ejb</groupId>
-			<artifactId>ejb</artifactId>
+			<groupId>com.mx.ozz</groupId>
+			<artifactId>hbl-backDM</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
 		</dependency>
 
 	</dependencies>
 
-	
 
 </project>

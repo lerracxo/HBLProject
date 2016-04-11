@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.mx.ozz</groupId>
-	<artifactId>hbl-back</artifactId>
+		<artifactId>hbl-back</artifactId>
 		<version>1.0.0</version>
 	</parent>
 	<groupId>com.mx.ozz</groupId>
@@ -14,42 +14,34 @@
 	<url>http://maven.apache.org</url>
 
 	<build>
-	        <plugins>
+		<plugins>
 
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-ejb-plugin</artifactId>
-                <configuration>
-                    <ejbVersion>3.0</ejbVersion>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-	
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-ejb-plugin</artifactId>
+				<configuration>
+					<ejbVersion>3.0</ejbVersion>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 	<dependencies>
-		
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 		</dependency>
-		
-		
-		<dependency>
-				<groupId>com.mx.ozz</groupId>
-				<artifactId>hbl-backCommons</artifactId>
-				<version>${project.version}</version>
-			</dependency>
 
-        <dependency>
-            <groupId>javax.ejb</groupId>
-            <artifactId>ejb</artifactId>
-        </dependency>
-		        <dependency>
-            <groupId>javax.persistence</groupId>
-            <artifactId>jpa-api</artifactId>
-        </dependency>
+
+		<dependency>
+			<groupId>com.mx.ozz</groupId>
+			<artifactId>hbl-backCommons</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
 	</dependencies>
 
-	
+
 
 </project>
