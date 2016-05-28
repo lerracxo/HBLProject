@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.mx.ozz</groupId>
 		<artifactId>HBL</artifactId>
-		<version>1.0</version>
+	<version>1.0</version>
 	</parent>
 	<artifactId>HBLWeb</artifactId>
 	<packaging>war</packaging>
@@ -56,6 +56,14 @@
 		</resources>
 	</build>
 	<dependencies>
+                <dependency>
+                        <groupId>com.mx.ozz</groupId>
+                        <artifactId>hbl-backAPI</artifactId>
+                </dependency>
+                <dependency>
+                    <groupId>javax</groupId>
+                    <artifactId>javaee-api</artifactId>
+                </dependency>
 		<dependency>
 			<groupId>oracle.adf.share</groupId>
 			<artifactId>oracle-adf-share</artifactId>

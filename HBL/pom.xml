@@ -14,6 +14,11 @@
 	</modules>
 	<dependencyManagement>
 		<dependencies>
+                        <dependency>
+				<groupId>com.mx.ozz</groupId>
+				<artifactId>hbl-backAPI</artifactId>
+				<version>1.0.0</version>
+			</dependency>
 			<dependency>
 				<groupId>javax</groupId>
 				<artifactId>javaee-api</artifactId>

@@ -2,21 +2,27 @@ package com.mx.ozz.mb;
 
 import java.io.Serializable;
 
+import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 
-@ManagedBean(name="personaMB")
+import com.mx.ozz.bs.UsuarioServiceLocal;
+
+@ManagedBean(name = "personaMB")
 @SessionScoped
-public class PersonaMB implements Serializable{
+public class PersonaMB implements Serializable {
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = -6093116272636247658L;
-	
-	private String leyenda="Valor de leyenda";
+
+	@EJB(name = "UsuarioServiceBean", mappedName = "UsuarioServiceBean")
+	private UsuarioServiceLocal usuarioService;
+
+	private String leyenda = "Valor de leyenda";
 
 	public String getLeyenda() {
-		return leyenda;
+		return usuarioService.loggin("", "").toString();
 	}
 
 	public void setLeyenda(String leyenda) {
