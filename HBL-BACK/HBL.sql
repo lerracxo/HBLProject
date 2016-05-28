@@ -14,5 +14,8 @@ CREATE TABLE producto(
   cantidad  INTEGER
 );
 
+INSERT INTO persona VALUES(1,'oscar','santoyo','martinez',current);
 SELECT * FROM persona;
 SELECT * FROM producto;
+
+show tables;

@@ -77,5 +77,13 @@ public class UsuarioDTO implements Serializable{
 		this.fecha_nacimiento = fecha_nacimiento;
 	}
 	
+	@Override 
+	public String toString(){
+		StringBuilder sb = new StringBuilder();
+		sb.append(this.nombre).append(" ").append(this.apellido_m).append(this.apellido_p).append(" de ");
+		sb.append(this.fecha_nacimiento.toString());
+		return sb.toString();
+	}
+	
 
 }

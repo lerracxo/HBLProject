@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-  <name>hbl-backDS</name>
+  <name>hbl-EAR</name>
   <comment>NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
   <projects>
+    <project>hbl-backBS</project>
+    <project>hbl-backAPI</project>
+    <project>hbl-backDM</project>
     <project>hbl-backCommons</project>
+    <project>hbl-backDS</project>
   </projects>
-  <buildSpec>
-    <buildCommand>
-      <name>org.eclipse.jdt.core.javabuilder</name>
-    </buildCommand>
-  </buildSpec>
-  <natures>
-    <nature>org.eclipse.jdt.core.javanature</nature>
-  </natures>
+  <buildSpec/>
+  <natures/>
 </projectDescription>

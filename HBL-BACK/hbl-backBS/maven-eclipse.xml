@@ -1,0 +1,8 @@
+<project default="copy-resources">
+  <target name="init"/>
+  <target name="copy-resources" depends="init">
+    <copy todir="target/classes/mx/gob/senasica/iaa/cet/cet/rimbaa/bs/resources" filtering="true">
+      <fileset dir="src/main/java/mx/gob/senasica/iaa/cet/cet/rimbaa/bs/resources" includes="**/*.properties" excludes="**/*.java"/>
+    </copy>
+  </target>
+</project>
