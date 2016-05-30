@@ -1,8 +1,8 @@
 package com.seguritech.camaras.bs;
 
-import javax.ejb.Remote;
+import javax.ejb.Local;
 
-@Remote
+@Local
 public interface UsuarioServiceLocal extends UsuarioIService{
 
 }

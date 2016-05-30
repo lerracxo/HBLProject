@@ -9,6 +9,7 @@
         <!-- Entidades de persistencia -->
         <class>com.seguritech.camaras.entity.Persona</class>
         <properties>
+        	<property name="jboss.as.jpa.managed" value="false" />
             <property name="eclipselink.cache.shared.default" value="false" /> <!--no borrar -->
             <property name="eclipselink.target-server" value="JBoss" /> <!-- No borrar -->
             <property name="eclipselink.target-database" value="PostgreSQL" /> <!-- No borrar -->

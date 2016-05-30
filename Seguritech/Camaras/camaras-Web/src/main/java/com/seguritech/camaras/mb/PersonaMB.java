@@ -1,4 +1,4 @@
-package com.mx.ozz.mb;
+package com.seguritech.camaras.mb;
 
 import java.io.Serializable;
 
@@ -6,7 +6,7 @@ import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 
-import com.mx.ozz.bs.UsuarioServiceLocal;
+import com.seguritech.camaras.bs.UsuarioServiceLocal;
 
 @ManagedBean(name = "personaMB")
 @SessionScoped

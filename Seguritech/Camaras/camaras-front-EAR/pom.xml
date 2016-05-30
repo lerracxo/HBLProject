@@ -1,18 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.mx.ozz</groupId>
-        <artifactId>HBL</artifactId>
+        <groupId>com.seguritech.camaras</groupId>
+        <artifactId>camaras-front</artifactId>
         <version>1.0</version>
     </parent>
-    <groupId>com.mx.ozz</groupId>
-    <artifactId>HBLEAR</artifactId>
+    <groupId>com.seguritech.camaras</groupId>
+    <artifactId>camaras-front-EAR</artifactId>
     <packaging>ear</packaging>
     <version>1.0</version>
-    <name>HBLEAR</name>
+    <name>camaras-front-EAR</name>
     <url>http://maven.apache.org</url>
     <build>
-        <finalName>HBLEAR</finalName>
+        <finalName>camaras-front</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-ear-plugin</artifactId>
@@ -26,8 +26,8 @@
     </build>
     <dependencies>
         <dependency>
-            <groupId>com.mx.ozz</groupId>
-            <artifactId>HBLWeb</artifactId>
+            <groupId>com.seguritech.camaras</groupId>
+            <artifactId>camaras-Web</artifactId>
             <type>war</type>
             <version>${project.version}</version>
         </dependency>
