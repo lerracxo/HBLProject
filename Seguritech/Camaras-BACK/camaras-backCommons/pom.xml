@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.seguritech.camaras</groupId>
+	<artifactId>camaras-back</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	<groupId>com.seguritech.camaras</groupId>
+	<artifactId>camaras-backCommons</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0.0</version>
+	<name>hbl-backCommons</name>
+	<url>http://maven.apache.org</url>
+
+	<build>
+		<resources>
+			<resource>
+				<directory>src/main/java/com/seguritech/camaras/commons/resources</directory>
+				<targetPath>com/seguritech/camaras/commons/resources</targetPath>
+				<filtering>true</filtering>
+				<includes>
+					<include>**/*.properties</include>
+				</includes>
+			</resource>
+			<resource>
+				<directory>src/main/resources/</directory>
+				<includes>
+					<include>**/*.xml</include>
+				</includes>
+			</resource>
+		</resources>
+	</build>
+	
+
+	<dependencies>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+
+	</dependencies>
+
+	
+
+</project>
