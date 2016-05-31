@@ -1,0 +1,13 @@
+/home/omar/Proyecto/Crucial/Ejemplo console 1/Ejemplo console 1/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.cs
+/home/omar/Proyecto/Crucial/Ejemplo console 1/Ejemplo console 1/bin/Debug/Ejemplo console 1.exe.config
+/home/omar/Proyecto/Crucial/Ejemplo console 1/Ejemplo console 1/bin/Debug/Ejemplo console 1.exe.mdb
+/home/omar/Proyecto/Crucial/Ejemplo console 1/Ejemplo console 1/bin/Debug/Ejemplo console 1.pdb
+/home/omar/Proyecto/Crucial/Ejemplo console 1/Ejemplo console 1/bin/Debug/Ejemplo console 1.exe
+/home/omar/Proyecto/Crucial/Ejemplo console 1/Ejemplo console 1/obj/Debug/Ejemplo console 1.exe
+/home/omar/Proyecto/Crucial/Ejemplo console 1/Ejemplo console 1/obj/Debug/Ejemplo console 1.exe.mdb
+/home/omar/Proyecto/Crucial/Ejemplo console 1/Ejemplo console 1/obj/Debug/Ejemplo console 1.pdb
+/home/omar/Proyecto/Crucial/Ejemplo console 1/Ejemplo console 1/bin/Debug/MySql.Data.Entity.EF5.dll
+/home/omar/Proyecto/Crucial/Ejemplo console 1/Ejemplo console 1/bin/Debug/MySql.Data.Entity.EF6.dll
+/home/omar/Proyecto/Crucial/Ejemplo console 1/Ejemplo console 1/bin/Debug/MySql.Fabric.Plugin.dll
+/home/omar/Proyecto/Crucial/Ejemplo console 1/Ejemplo console 1/bin/Debug/MySql.Web.dll
+/home/omar/Proyecto/Crucial/Ejemplo console 1/Ejemplo console 1/bin/Debug/MySql.Data.dll
