@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="Camaras">
+		<jta-data-source>java:/com/env/camarasDS</jta-data-source>
+		<class>com.seguritech.camaras.entities.Delegacion</class>
+		<class>com.seguritech.camaras.entities.Municipio</class>
+		<class>com.seguritech.camaras.entities.Colonia</class>
+		<class>com.seguritech.camaras.entities.Calle</class>
+		<class>com.seguritech.camaras.entities.Camara</class>
+		<class>com.seguritech.camaras.entities.Visita</class>
+	</persistence-unit>
+</persistence>

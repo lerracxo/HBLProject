@@ -1,0 +1,12 @@
+package com.seguritech.camaras.ds;
+
+import java.util.List;
+
+import com.seguritech.camaras.dto.DelegacionDTO;
+
+public interface DelegacionDAO {
+	
+	List<DelegacionDTO> getDelegaciones();
+	
+	List<DelegacionDTO> getDelegaciones(DelegacionDTO filtro);
+}

@@ -1,0 +1,56 @@
+package com.seguritech.camaras.entities;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="visitas")
+public class Visita {
+
+	@Id
+	private int id_visita;
+	@Column
+	private int id_camara;
+	@Column
+	private Date fecha;
+	/**
+	 * @return the id_visita
+	 */
+	public int getId_visita() {
+		return id_visita;
+	}
+	/**
+	 * @param id_visita the id_visita to set
+	 */
+	public void setId_visita(int id_visita) {
+		this.id_visita = id_visita;
+	}
+	/**
+	 * @return the id_camara
+	 */
+	public int getId_camara() {
+		return id_camara;
+	}
+	/**
+	 * @param id_camara the id_camara to set
+	 */
+	public void setId_camara(int id_camara) {
+		this.id_camara = id_camara;
+	}
+	/**
+	 * @return the fecha
+	 */
+	public Date getFecha() {
+		return fecha;
+	}
+	/**
+	 * @param fecha the fecha to set
+	 */
+	public void setFecha(Date fecha) {
+		this.fecha = fecha;
+	}
+}

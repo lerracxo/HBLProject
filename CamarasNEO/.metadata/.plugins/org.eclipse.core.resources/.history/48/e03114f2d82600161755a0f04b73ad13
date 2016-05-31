@@ -1,0 +1,6 @@
+package com.seguritech.camaras;
+
+@ManagedBean
+public class CamarasMB {
+
+}

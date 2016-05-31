@@ -1,0 +1,9 @@
+package com.seguritech.camaras.entities;
+
+import javax.persistence.Entity;
+
+@Entity
+@Table(name="documentos")
+public class Documento {
+
+}

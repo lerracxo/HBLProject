@@ -1,0 +1,13 @@
+package com.seguritech.camaras.entities;
+
+@Entity
+@Table(name="colonias")
+public class Colonia {
+
+	@Id
+	private int id_colonia;
+	@Column
+	private int id_municipio;
+	@Column
+	private String nombre;
+}

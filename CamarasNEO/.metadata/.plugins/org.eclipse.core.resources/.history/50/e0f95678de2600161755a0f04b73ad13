@@ -1,0 +1,5 @@
+package com.seguritech.camaras.dto;
+
+public class MunicipioDTO {
+
+}

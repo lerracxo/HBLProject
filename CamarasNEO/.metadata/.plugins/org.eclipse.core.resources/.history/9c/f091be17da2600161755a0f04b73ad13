@@ -1,0 +1,5 @@
+package com.seguritech.camaras.entities;
+
+public class Colonia {
+
+}

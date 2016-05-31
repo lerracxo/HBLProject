@@ -1,0 +1,16 @@
+package com.seguritech.camaras.entities;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="delegaciones")
+public class Delegacion {
+	@Id
+	private int id_delegacion;
+	@Column
+	private String nombre;
+
+}

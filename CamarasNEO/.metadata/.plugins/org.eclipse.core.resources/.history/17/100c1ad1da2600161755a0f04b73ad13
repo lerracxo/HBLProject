@@ -1,0 +1,18 @@
+package com.seguritech.camaras.entities;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="colonias")
+public class Colonia {
+
+	@Id
+	private int id_colonia;
+	@Column
+	private int id_municipio;
+	@Column
+	private String nombre;
+}

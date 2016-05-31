@@ -1,0 +1,13 @@
+package com.seguritech.camaras.entities;
+
+@Entity
+@Table(nombre="calles")
+public class Calle {
+	@Id
+	private int id_calle;
+	@Column
+	private int id_colonia;
+	@Column
+	private String nombre;
+
+}

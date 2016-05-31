@@ -1,0 +1,25 @@
+package com.seguritech.camaras.service.impl;
+
+import java.util.List;
+
+import javax.ejb.EJB;
+import javax.ejb.Stateless;
+import javax.jws.WebService;
+
+import com.seguritech.camaras.ds.DelegacionDAO;
+import com.seguritech.camaras.dto.DelegacionDTO;
+import com.seguritech.camaras.service.CamarasIService;
+
+@Stateless
+@WebService
+public class CamarasService implements CamarasIService{
+
+	@EJB
+	private DelegacionDAO delegacionDAO;
+	
+	@WebMethod
+	public List<DelegacionDTO> getDelegaciones(){
+		delegacionDAO.getDelegaciones();
+	}
+	
+}

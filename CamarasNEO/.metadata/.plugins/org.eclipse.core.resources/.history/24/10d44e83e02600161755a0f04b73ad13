@@ -1,0 +1,7 @@
+package com.seguritech.camaras.ds;
+
+public class CamaraDAO {
+
+	List<CamaraDTO> getCamaras();
+	List<CamaraDTO> getCamaras(CamaraDTO filtro);
+}

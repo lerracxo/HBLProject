@@ -1,0 +1,14 @@
+package com.seguritech.camaras.entities;
+
+@Entity
+@Table(name="municipios")
+public class Municipio {
+	
+	@Id
+	private int id_municipio;
+	@column
+	private int id_delegacion;
+	@column
+	private String nombre;
+
+}

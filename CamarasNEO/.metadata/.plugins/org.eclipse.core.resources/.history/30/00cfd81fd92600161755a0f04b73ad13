@@ -1,0 +1,11 @@
+package com.seguritech.camaras;
+
+import javax.ejb.EJB;
+import javax.faces.bean.ManagedBean;
+
+@ManagedBean
+public class CamarasMB {
+
+	@EJB
+	private CamarasService camarasService;
+}

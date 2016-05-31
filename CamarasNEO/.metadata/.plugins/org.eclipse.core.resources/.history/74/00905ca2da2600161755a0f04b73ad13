@@ -1,0 +1,13 @@
+package com.seguritech.camaras.entities;
+
+@Entity
+@Table(name="visitas")
+public class Visita {
+
+	@Id
+	private int id_visita;
+	@Column
+	private int id_camara;
+	@Column
+	private Date fecha;
+}

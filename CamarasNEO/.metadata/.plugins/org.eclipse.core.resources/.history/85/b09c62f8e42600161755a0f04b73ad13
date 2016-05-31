@@ -1,0 +1,51 @@
+package com.seguritech.camaras.ds.impl;
+
+import java.util.List;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
+
+import com.seguritech.camaras.ds.DelegacionDAO;
+import com.seguritech.camaras.dto.DelegacionDTO;
+import com.seguritech.camaras.entities.Delegacion;
+
+@Stateless
+public class DelegacionDAOBean implements DelegacionDAO{
+
+	@PersistenceContext(name="Camaras")
+	private EntityManager em;
+	
+	@Override
+	public List<Delegacion> getDelegaciones() {
+		final StringBuilder q = new StringBuilder();
+		q.append("SELECT a FROM ").append(Delegacion.class.getSimpleName());
+		q.append("as a");
+		
+		final Query query = this.em.createQuery(q.toString());
+		
+		@SuppressWarnings("unchecked")
+		List<Delegacion> result = query.getResultList();
+		return result;
+	}
+
+	@Override
+	public List<Delegacion> getDelegaciones(DelegacionDTO filtro) {
+		final StringBuilder q = new StringBuilder();
+		q.append("SELECT a FROM ").append(Delegacion.class.getSimpleName());
+		q.append("as a  WHERE 1=1 ");
+		if(filtro.getId_delegacion() != null){
+			q.append(" AND id_delegacion = ").apennd(filtro.getId_delegacion());
+		}
+		if(!filtro.getNombre().isEmpty()){
+			q.append(" AND nombre LIKE '%").append(filtro.getNombre()).append("%' ");
+		}
+		q.append(" ");
+		
+		return null;
+	}
+	
+	
+
+}

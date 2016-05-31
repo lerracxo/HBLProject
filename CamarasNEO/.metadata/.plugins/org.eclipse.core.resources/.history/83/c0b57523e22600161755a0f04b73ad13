@@ -1,0 +1,30 @@
+package com.seguritech.camaras.ds.impl;
+
+import java.util.List;
+
+import javax.ejb.Stateless;
+import javax.persistence.PersistenceContext;
+
+import com.seguritech.camaras.ds.DelegacionDAO;
+import com.seguritech.camaras.dto.DelegacionDTO;
+
+@Stateless
+public class DelegacionDAOBean implements DelegacionDAO{
+
+	@PersistenceContext(name="Camaras")
+	
+	@Override
+	public List<DelegacionDTO> getDelegaciones() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<DelegacionDTO> getDelegaciones(DelegacionDTO filtro) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}

@@ -1,0 +1,8 @@
+package com.seguritech.camaras;
+
+import javax.faces.bean.ManagedBean;
+
+@ManagedBean
+public class CamarasMB {
+
+}

@@ -1,0 +1,12 @@
+package com.seguritech.camaras.service.impl;
+
+import javax.ejb.Stateless;
+
+import com.seguritech.camaras.service.CamarasIService;
+
+@Stateless
+public class CamarasService implements CamarasIService{
+
+	
+	
+}

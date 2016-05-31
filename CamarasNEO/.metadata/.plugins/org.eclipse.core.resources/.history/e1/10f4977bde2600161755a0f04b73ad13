@@ -1,0 +1,9 @@
+package com.seguritech.camaras.dto;
+
+public class MunicipioDTO {
+
+	private int id_municipio;
+	private int id_delegacion;
+	private String nombre;
+	
+}

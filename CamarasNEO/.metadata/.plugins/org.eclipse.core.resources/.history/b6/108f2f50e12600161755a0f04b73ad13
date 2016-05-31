@@ -1,0 +1,25 @@
+package com.seguritech.camaras.ds.impl;
+
+import java.util.List;
+
+import com.seguritech.camaras.ds.DelegacionDAO;
+import com.seguritech.camaras.dto.DelegacionDTO;
+
+@Stateless
+public class DelegacionDAOBean implements DelegacionDAO{
+
+	@Override
+	public List<DelegacionDTO> getDelegaciones() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<DelegacionDTO> getDelegaciones(DelegacionDTO filtro) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}

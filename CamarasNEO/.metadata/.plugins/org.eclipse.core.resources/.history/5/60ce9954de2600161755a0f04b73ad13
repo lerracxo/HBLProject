@@ -1,0 +1,6 @@
+package com.seguritech.camaras.ds;
+
+public class MunicipioDAO {
+	List<Municipio> getMunicipios();
+	List<Municiio> getMunicipios();
+}

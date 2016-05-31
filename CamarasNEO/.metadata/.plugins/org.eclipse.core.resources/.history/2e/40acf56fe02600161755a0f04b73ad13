@@ -1,0 +1,11 @@
+package com.seguritech.camaras.dto;
+
+public class CamaraDTO {
+	private int id_camara;
+	private int id_delegacion;
+	private int id_municipio;
+	private int id_colonia;
+	private int id_calle;
+	private String url;
+	private String nombre;
+}
