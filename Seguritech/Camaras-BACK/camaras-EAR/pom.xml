@@ -50,5 +50,10 @@
                 <type>ejb</type>
                 <version>${project.version}</version>
         </dependency>
+        <dependency>
+                <groupId>com.seguritech.camaras</groupId>
+                <artifactId>camaras-backAPI</artifactId>
+                <version>${project.version}</version>
+        </dependency>
     </dependencies>
 </project>

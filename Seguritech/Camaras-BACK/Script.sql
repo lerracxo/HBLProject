@@ -1,9 +1,9 @@
-DROP TABLE delegaciones;
-DROP TABLE municipios;
-DROP TABLE colonias;
-DROP TABLE calles;
-DROP TABLE camaras;
-DROP TABLE visitas;
+DROP TABLE delegacion;
+DROP TABLE municipio;
+DROP TABLE colonia;
+DROP TABLE calle;
+DROP TABLE camara;
+DROP TABLE visita;
 
 CREATE TABLE delegaciones(
   id_delegacion   INTEGER,
